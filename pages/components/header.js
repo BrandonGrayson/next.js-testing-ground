@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-function Header ()  {
+export default () =>  {
     return (
         <ul>
             <li>
@@ -13,16 +13,14 @@ function Header ()  {
                 <Link href='/about'>
                     <a>About</a>
                 </Link>
+            </li>
 
-                <li>
+            <li>
                 <Link href='/contact'>
                     <a>Contact</a>
                 </Link>
-
-            </li>
             </li>
         </ul>
     )
 }
 
-export default Header;

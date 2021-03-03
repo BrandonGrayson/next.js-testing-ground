@@ -1,10 +1,11 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Header from "./components/header"
 
 export default function About() {
-  return (
-    <>
-    <h1>About Page</h1>
-    </>
-  )
+    return (
+      <>
+      <Header/>
+      <h1>About Page</h1>
+      </>
+    )
+
 }
