@@ -1,7 +1,7 @@
 
 import Header from "../../components/header"
 
-const Post = (title, body) => (
+const Post = ({title, body}) => (
         <>
             <Header />
             <h1>{title}</h1>
@@ -10,10 +10,10 @@ const Post = (title, body) => (
     )
 
 
-Post.getInitialProps = async ({ props }) => {
+Post.getInitialProps = async ({ query }) => {
     const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${query.id}`)
     const post = res.json()
-    return
+    return post
 }
 export default Post
 

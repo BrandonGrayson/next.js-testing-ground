@@ -22,14 +22,14 @@ export default () =>  {
             </li>
 
             <li>
-                <Link as='/post/first-post' href='/post/{id}'>
+                <Link as='/post/1' href='/post/{id}'>
                     <a>First Post</a>
                 </Link>
             </li>
 
             <li>
-                <Link as='/post/second-post' href='/post/{id}'>
-                    <a>Second Post</a>
+                <Link as='/post/2' href='/post/{id}'>
+                    <a>Second Post</a> 
                 </Link>
             </li>
         </ul>
