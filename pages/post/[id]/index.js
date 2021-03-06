@@ -1,9 +1,9 @@
 import {useRouter} from "next/router";
-import Header from "../components/header"
+import Header from "../../components/header"
 
 const Post = () => {
     const router = useRouter();
-    const id = router.query
+    const {id} = router.query
 
     return (
         <>
