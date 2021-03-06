@@ -14,3 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.title {
+  background: #eee;
+  padding: 100px;
+  text-align: center;
+  transition: 100ms ease-in background;
+  margin-top: 0;
+}
+
+.title:hover {
+  background: #ccc;
+}
