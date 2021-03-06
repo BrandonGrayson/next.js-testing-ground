@@ -16,20 +16,8 @@ export default () =>  {
             </li>
 
             <li>
-                <Link href='/contact'>
-                    <a>Contact</a>
-                </Link>
-            </li>
-
-            <li>
-                <Link as='/post/1' href='/post/{id}'>
-                    <a>First Post</a>
-                </Link>
-            </li>
-
-            <li>
-                <Link as='/post/2' href='/post/{id}'>
-                    <a>Second Post</a> 
+                <Link href='/login'>
+                    <a>login</a>
                 </Link>
             </li>
         </ul>
