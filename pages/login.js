@@ -1,6 +1,8 @@
-import {useRouter}  from "next/router"
+import {useRouter}  from "next/router";
+
 const Login = () => {
     const router = useRouter();
+    
     const onLogin = (event) => {
         event.preventDefault();
 
